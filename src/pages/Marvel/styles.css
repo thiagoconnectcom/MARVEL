@@ -1,0 +1,77 @@
+.text-center {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.cinza {
+  color: #c9c9c9;
+  font-size: 15px;
+}
+
+.azul {
+  color: #7ca3d2;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.nome {
+  color: #7ca3d2;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.card {
+  border-bottom: 6px solid red !important;
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  min-height: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.search {
+  margin-top: 40px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  background-color: transparent;
+  border-bottom: 2px solid red;
+  width: 300px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.page-item.active .page-link:not(:disabled):not(.disabled).page-link {
+  background-color: #ccc !important;
+}
+
+.page-item.disabled .page-link,
+.page-link:focus,
+.page-item,
+.pagination,
+.page-link,
+:last-child.page-item .page-link,
+.page-item.active .page-link:not(:disabled):not(.disabled).page-link {
+  display: -webkit-flex;
+  display: flex;
+  border: none;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
